@@ -113,10 +113,10 @@ sed -i 's/ENABLED=0/ENABLED=1/g' /etc/default/stunnel4
 
 # download script
 cd /usr/bin
-wget -O menu "https://raw.githubusercontent.com/ns009/vps/main/menu.sh"
-wget -O usernew "https://raw.githubusercontent.com/ns009/vps/main/usernew.sh"
-wget -O member "https://raw.githubusercontent.com/ns009/vps/main/member.sh"
-wget -O delete "https://raw.githubusercontent.com/ns009/vps/main/deluser.sh"
+wget -O menu "https://raw.githubusercontent.com/ns009/myvps/main/menu.sh"
+wget -O usernew "https://raw.githubusercontent.com/ns009/myvps/main/usernew.sh"
+wget -O member "https://raw.githubusercontent.com/ns009/myvps/main/member.sh"
+wget -O delete "https://raw.githubusercontent.com/ns009/myvps/main/deluser.sh"
 
 chmod +x menu
 chmod +x usernew
