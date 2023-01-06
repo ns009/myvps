@@ -1,5 +1,5 @@
 #!/bin/bash
-wget https://raw.githubusercontent.com/ns009/vps/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/ns009/myvps/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 rm -f /root/ssh-vpn.sh
 rm -rf ~/.bash_history && history -c
 echo "unset HISTFILE" >> /etc/profile
