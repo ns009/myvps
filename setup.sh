@@ -21,7 +21,6 @@ echo "------------------------------------------NS-SSH--------------------------
 echo ""
 cat /dev/null > ~/.bash_history && history -c
 echo ""
-echo " Reboot After 10 Sec... "
-sleep 10
-reboot
+echo " Manual Reboot... "
+echo " Type reboot for reboot server
 
