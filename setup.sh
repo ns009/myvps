@@ -17,6 +17,9 @@ echo "   - OpenSSH                 : 22"  | tee -a log-install.txt
 echo "   - Stunnel4                : 443"  | tee -a log-install.txt
 echo "   - Dropbear                : 143"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
+echo "    >>> XRay VLess"  | tee -a log-install.txt
+echo "   - Port                 : 80"  | tee -a log-install.txt
+echo ""  | tee -a log-install.txt
 echo "------------------------------------------NS-SSH------------------------------------------" | tee -a log-install.txt
 echo ""
 cat /dev/null > ~/.bash_history && history -c
