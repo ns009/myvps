@@ -25,5 +25,4 @@ echo ""
 cat /dev/null > ~/.bash_history && history -c
 echo ""
 echo " Manual Reboot... "
-echo " Type reboot for reboot server
-
+echo " Type 'reboot' for reboot server "
