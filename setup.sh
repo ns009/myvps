@@ -13,9 +13,9 @@ echo "" | tee -a log-install.txt
 echo "--------------------------------------------------------------------------------" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Service & Port"  | tee -a log-install.txt
-echo "   - OpenSSH                 : 22"  | tee -a log-install.txt
-echo "   - Stunnel4                : 443"  | tee -a log-install.txt
-echo "   - Dropbear                : 143"  | tee -a log-install.txt
+echo "   - OpenSSH                 : 17620"  | tee -a log-install.txt
+echo "   - Stunnel4                : 17619"  | tee -a log-install.txt
+echo "   - Dropbear                : 17618"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "    >>> XRay VLess"  | tee -a log-install.txt
 echo "   - Port                    : 80"  | tee -a log-install.txt
