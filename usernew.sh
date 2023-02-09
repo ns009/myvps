@@ -4,7 +4,9 @@ read -p "Username : " Login
 read -p "Password : " Pass
 read -p "Expired (hari): " masaaktif
 
-domain="hostname";
+export DEBIAN_FRONTEND=noninteractive
+MYIP=$(wget -qO- ifconfig.co);
+MYIP2="s/xxxxxxxxx/$MYIP/g";
 echo Script AutoCreate Akaun SSH dan VPN by NS-SSH
 sleep 1
 echo Ping Host
@@ -27,8 +29,8 @@ echo -e "Info Akaun SSH & OpenVPN"
 echo -e "Username       : $Login "
 echo -e "Password       : $Pass"
 echo -e "==============================="
-echo -e "IP Server      : $IP"
-echo -e "Host           : $domain"
+echo -e "IP Server      : $MYIP"
+echo -e "Host           : $hostname"
 echo -e "OpenSSH        : 17620"
 echo -e "Dropbear       : 17618"
 echo -e "SSL/TLS        : 17619"
