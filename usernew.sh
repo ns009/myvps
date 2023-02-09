@@ -4,9 +4,7 @@ read -p "Username : " Login
 read -p "Password : " Pass
 read -p "Expired (hari): " masaaktif
 
-IP=$(wget -qO- ifconfig.co);
-IP2="s/xxxxxxxxx/$IP/g";
-domain="hostname"
+domain="hostname";
 echo Script AutoCreate Akaun SSH dan VPN by NS-SSH
 sleep 1
 echo Ping Host
